@@ -31,8 +31,8 @@
         <div class="wrapperMedContacts">
                 <img src="images/contacts.jpg" alt="контакты">
                 <div class="contactTextForm">
-                    КОНТАКТЫ (по вопросам дизайн-проекта)<br> +7 (999) 873 60 79 <br>krasnova@render.run<br><br>
-                    ПО ВОПРОСАМ СОТРУДНИЧЕСТВА <br>+7 (999) 873 60 79 <br>krasnova@render.run<br><br><br>
+                    КОНТАКТЫ (по вопросам дизайн-проекта)<br> <a href="tel:+79998736079">+7(999)873-60-79</a> <br>krasnova@render.run<br><br>
+                    ПО ВОПРОСАМ СОТРУДНИЧЕСТВА <br><a href="tel:+79998736079">+7(999)873-60-79</a> <br>krasnova@render.run<br><br><br>
                     <?php
                         if(!isset($_POST['userName'])
                         and !isset($_POST['userNumber'])
@@ -98,7 +98,7 @@
             </div>
             <div class="footerInformation">
                 RENDER.RUN - 3D визуализация интерьеров<br>
-                krasnova@render.run   +7(999)873-60-79
+                krasnova@render.run   <a href="tel:+79998736079">+7(999)873-60-79</a>
             </div>
     </footer>
 </body>
