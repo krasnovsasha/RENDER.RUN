@@ -33,7 +33,7 @@ html,body {
         display: inline-flex;
         list-style: none;
         width: 100%;
-        padding: 0px;
+        padding: 0;
         justify-content: space-evenly;
         margin: auto;
     }
@@ -46,7 +46,7 @@ html,body {
     }
 
     .headerMenu ul li:nth-child(n+4){
-        margin-right: 0px;
+        margin-right: 0;
     }
 
     .headerMenu ul li:hover {
@@ -141,12 +141,13 @@ html,body {
         width: 40%;
         margin: 20px;
         transition: 1s;
+        border: 5px solid whitesmoke;
     }
 
     .wrapperProjects img:hover {
         transition: 1s;
-        transform: scale(1.1);
-        border: 5px solid whitesmoke;
+        /*!*transform: scale(1.1);*!*/
+        border: 5px solid darkgray;
     }
 
     .wrapperProjects a {
@@ -181,7 +182,7 @@ html,body {
     }
 
     .service ul {
-        padding: 0px;
+        padding: 0;
     }
 
     .service ul li {
@@ -259,7 +260,7 @@ html,body {
         display: inline-flex;
         list-style: none;
         width: 100%;
-        padding: 0px;
+        padding: 0;
         justify-content: space-evenly;
     }
 
@@ -270,7 +271,7 @@ html,body {
     }
 
     .headerMenu ul li:nth-child(n+4){
-        margin-right: 0px;
+        margin-right: 0;
     }
 
     .headerMenu ul li:hover {
@@ -314,12 +315,12 @@ html,body {
 }
 
     .containerIndexImg {
-        min-height: 0px;
+        min-height: 0;
 }
 
     .containerIndexImg img {
         width: 100%;
-        margin-top: 0px;
+        margin-top: 0;
 }
 
     .aboutMeImg {
@@ -379,7 +380,7 @@ html,body {
     .service ul {
         list-style: none;
         margin: 10px 10px 20px;
-        padding: 0px;
+        padding: 0;
     }
 
     .wrapperMedContacts {
@@ -473,7 +474,7 @@ html,body {
         display: inline-flex;
         list-style: none;
         width: 100%;
-        padding: 0px;
+        padding: 0;
         justify-content: space-evenly;
         font-size: small;
     }
@@ -485,7 +486,7 @@ html,body {
     }
 
     .headerMenu ul li:nth-child(n+4){
-        margin-right: 0px;
+        margin-right: 0;
     }
 
     .headerMenu ul li:hover {
@@ -552,7 +553,7 @@ html,body {
     .service ul {
         list-style: none;
         margin: 10px 10px 20px;
-        padding: 0px;
+        padding: 0;
     }
 
     .wrapperMedContacts {
@@ -639,7 +640,7 @@ html,body {
         display: inline-flex;
         list-style: none;
         width: 100%;
-        padding: 0px;
+        padding: 0;
         justify-content: space-evenly;
     }
 
@@ -650,7 +651,7 @@ html,body {
     }
 
     .headerMenu ul li:nth-child(n+4){
-        margin-right: 0px;
+        margin-right: 0;
     }
 
     .headerMenu ul li:hover {
@@ -681,7 +682,7 @@ html,body {
     .aboutMeText {
         text-align: center;
         margin: 10px;
-        padding: 0px;
+        padding: 0;
     }
 
     .wrapperProjects {
@@ -720,7 +721,7 @@ html,body {
     .service ul {
         list-style: none;
         margin: 10px 10px 20px;
-        padding: 0px;
+        padding: 0;
     }
 
         .wrapperMedContacts {
