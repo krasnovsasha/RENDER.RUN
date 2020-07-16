@@ -1,8 +1,8 @@
 <?php
     $lang = array(
-        "title" => "3D visualization of interiors",
-        "footerRenderRun" => "RENDER.RUN - 3D visualization of interiors",
-        "aboutMe" => "aboutMe",
+        "title" => "3D interior visualization",
+        "footerRenderRun" => "RENDER.RUN - 3D interior visualization",
+        "aboutMe" => "about me",
         "projects" => "projects",
         "contacts" => "contacts",
         "langRu" => "Русский",

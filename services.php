@@ -26,10 +26,10 @@
         <div class="headerLogo"><a href="index.php"><img src="images/renderRun.png" alt="logo"></a></div>
             <div class="headerMenu">
                 <ul>
-                    <li><a href="me.php">о себе</a> </li>
-                    <li><a href="projects.php">проекты</a></li>
+                    <li><a href="me.php"><?php echo $lang['aboutMe'] ?></a> </li>
+                    <li><a href="projects.php"><?php echo $lang['projects'] ?></a></li>
+                    <li><a href="contacts.php"><?php echo $lang['contacts'] ?></a></li>
                     <li><a href="services.php">услуги</a></li>
-                    <li><a href="contacts.php">контакты</a></li>
                 </ul>
             </div>
     </header>
