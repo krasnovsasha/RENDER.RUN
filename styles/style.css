@@ -99,6 +99,7 @@ html,body {
         padding-bottom: 15px;
         font-family: Montserrat-Medium, sans-serif;
         color: dimgrey;
+        text-align: center;
 }
 
     .footerSocialIcons img {
@@ -106,7 +107,7 @@ html,body {
         transition: 0.5s;
     }
     .footerSocialIcons img:hover {
-        transform: scale(1.1);
+        transform: scale(1.2);
         transition: 0.5s;
     }
 
@@ -212,6 +213,7 @@ html,body {
         font-family: Montserrat-Medium, sans-serif;
         color: dimgray;
     }
+
 
 
 @media (min-width: 320px) and (max-width: 479px) {
