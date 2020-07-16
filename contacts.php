@@ -18,7 +18,7 @@
 </head>
 <body>
     <header>
-        <div class="headerLogo"><a href="index.html"><img src="images/renderRun.png" alt="logo"></a></div>
+        <div class="headerLogo"><a href="index.php"><img src="images/renderRun.png" alt="logo"></a></div>
             <div class="headerMenu">
                 <ul>
                     <li><a href="me.html">о себе</a> </li>
