@@ -1,3 +1,6 @@
+<?php
+    include "configs/config.php";
+?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -12,7 +15,9 @@
         </script>
 
         <meta charset="UTF-8">
-        <title>Project2</title>
+        <title>
+            <?php echo $lang['title'] ?>
+        </title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="styles/style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -22,8 +27,8 @@
         <div class="headerLogo"><a href="index.php"><img src="images/renderRun.png" alt="logo"></a></div>
             <div class="headerMenu">
                 <ul>
-                    <li><a href="me.html">о себе</a> </li>
-                    <li><a href="projects.html">проекты</a></li>
+                    <li><a href="me.php">о себе</a> </li>
+                    <li><a href="projects.php">проекты</a></li>
                     <li><a href="contacts.php">контакты</a></li>
                 </ul>
             </div>
@@ -39,7 +44,7 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="images/project2/BR_2.jpg" class="d-block w-100" alt="...">
+                            <img src="images/project1/i1.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>В создании проекта использованы следующие инструменты:</h5>
                                 <p>3d моделирование-3ds Max,
@@ -48,12 +53,12 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="images/project2/BR_1.jpg" class="d-block w-100" alt="...">
+                            <img src="images/project1/i2.jpg" class="d-block w-100" width="720" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="images/project2/BR_3.jpg" class="d-block w-100" alt="...">
+                            <img src="images/project1/i3.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                             </div>
                         </div>
@@ -77,8 +82,9 @@
                 </a>
             </div>
             <div class="footerInformation">
-                RENDER.RUN - 3D визуализация интерьеров<br>
+                <?php echo $lang['title'] ?><br>
                 krasnova@render.run   <a href="tel:+79998736079">+7(999)873-60-79</a>
+                <p><a href="project1.php?lang=en"><?php echo $lang['langEn'] ?></a> | <a href="project1.php?lang=ru"><?php echo $lang['langRu'] ?></a></p>
             </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

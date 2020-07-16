@@ -1,3 +1,6 @@
+<?php
+    include "configs/config.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +19,9 @@
     </script>
 
     <meta charset="UTF-8">
-    <title>Визуализация жилых помещений в Дубне</title>
+    <title>
+        <?php echo $lang['title'] ?>
+    </title>
     <link rel="stylesheet" href="styles/style.css">
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
@@ -26,8 +31,8 @@
     <div class="headerLogo"><a href="index.php"><img src="images/renderRun.png" alt="logo"></a></div>
     <div class="headerMenu">
         <ul>
-            <li><a href="me.html">о себе</a></li>
-            <li><a href="projects.html">проекты</a></li>
+            <li><a href="me.php">о себе</a></li>
+            <li><a href="projects.php">проекты</a></li>
             <li><a href="contacts.php">контакты</a></li>
         </ul>
         </div>
@@ -57,8 +62,9 @@
         </a>
     </div>
     <div class="footerInformation">
-        RENDER.RUN - 3D визуализация интерьеров<br>
+        <?php echo $lang['title'] ?><br>
         krasnova@render.run   <a href="tel:+79998736079">+7(999)873-60-79</a>
+        <p><a href="me.php?lang=en"><?php echo $lang['langEn'] ?></a> | <a href="me.php?lang=ru"><?php echo $lang['langRu'] ?></a></p>
     </div>
 </footer>
 </body>

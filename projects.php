@@ -1,3 +1,6 @@
+<?php
+    include "configs/config.php";
+?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -12,7 +15,9 @@
         </script>
 
         <meta charset="UTF-8">
-        <title>3D визуализация жилых помещений</title>
+        <title>
+            <?php echo $lang['title'] ?>
+        </title>
         <link rel="stylesheet" href="styles/style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 </head>
@@ -21,36 +26,36 @@
         <div class="headerLogo"><a href="index.php"><img src="images/renderRun.png" alt="logo"></a></div>
             <div class="headerMenu">
                 <ul>
-                    <li><a href="me.html">о себе</a> </li>
-                    <li><a href="projects.html">проекты</a></li>
+                    <li><a href="me.php">о себе</a> </li>
+                    <li><a href="projects.php">проекты</a></li>
                     <li><a href="contacts.php">контакты</a></li>
                 </ul>
             </div>
     </header>
     <div class="container">
         <div class="wrapperProjects">
-            <a href="project1.html">
+            <a href="project1.php">
                 <img src="images/project1/i3.jpg">
             </a>
-            <a href="project2.html">
+            <a href="project2.php">
                 <img src="images/project2/BR_2.jpg">
             </a>
-            <a href="project3.html">
+            <a href="project3.php">
                 <img src="images/project3/BL%20(2).jpg">
             </a>
-            <a href="project4.html">
+            <a href="project4.php">
                 <img src="images/project4/kit3.jpg">
             </a>
-            <a href="project5.html">
+            <a href="project5.php">
                 <img src="images/project5/ST%20(2).jpg">
             </a>
-            <a href="project6.html">
+            <a href="project6.php">
                 <img src="images/project6/BR11.jpg">
             </a>
-            <a href="project7.html">
+            <a href="project7.php">
                 <img src="images/project7/mag%20(91).jpg">
             </a>
-            <a href="project8.html">
+            <a href="project8.php">
                 <img src="images/project8/LOFT%20(11).jpg">
             </a>
         </div>
@@ -62,8 +67,9 @@
                 </a>
             </div>
             <div class="footerInformation">
-                RENDER.RUN - 3D визуализация интерьеров<br>
+                <?php echo $lang['title'] ?><br>
                 krasnova@render.run   <a href="tel:+79998736079">+7(999)873-60-79</a>
+                <p><a href="projects.php?lang=en"><?php echo $lang['langEn'] ?></a> | <a href="projects.php?lang=ru"><?php echo $lang['langRu'] ?></a></p>
             </div>
     </footer>
 </body>

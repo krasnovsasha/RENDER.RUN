@@ -27,8 +27,8 @@
             <div class="headerLogo"><a href="index.php"><img src="images/renderRun.png" alt="logo"></a></div>
             <div class="headerMenu">
                 <ul>
-                    <li><a href="me.html"><?php echo $lang['aboutMe'] ?></a> </li>
-                    <li><a href="projects.html"><?php echo $lang['projects'] ?></a></li>
+                    <li><a href="me.php"><?php echo $lang['aboutMe'] ?></a> </li>
+                    <li><a href="projects.php"><?php echo $lang['projects'] ?></a></li>
                     <li><a href="contacts.php"><?php echo $lang['contacts'] ?></a></li>
                 </ul>
             </div>
