@@ -15,7 +15,9 @@
         </script>
 
         <meta charset="UTF-8">
-        <title>3D визуализация жилых помещений</title>
+        <title>
+            <?php echo $lang['title'] ?>
+        </title>
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles/style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
@@ -25,9 +27,9 @@
             <div class="headerLogo"><a href="index.php"><img src="images/renderRun.png" alt="logo"></a></div>
             <div class="headerMenu">
                 <ul>
-                    <li><a href="me.html">о себе</a> </li>
-                    <li><a href="projects.html">проекты</a></li>
-                    <li><a href="contacts.php">контакты</a></li>
+                    <li><a href="me.html"><?php echo $lang['aboutMe'] ?></a> </li>
+                    <li><a href="projects.html"><?php echo $lang['projects'] ?></a></li>
+                    <li><a href="contacts.php"><?php echo $lang['contacts'] ?></a></li>
                 </ul>
             </div>
         </header>
@@ -45,9 +47,9 @@
                 </a>
             </div>
             <div class="footerInformation">
-                RENDER.RUN - 3D визуализация интерьеров<br>
+                <?php echo $lang['title'] ?><br>
                 krasnova@render.run   <a href="tel:+79998736079">+7(999)873-60-79</a>
-                <p>English | Russian</p>
+                <p><a href="index.php?lang=en"><?php echo $lang['langEn'] ?></a> | <a href="index.php?lang=ru"><?php echo $lang['langRu'] ?></a></p>
             </div>
         </footer>
     </body>
