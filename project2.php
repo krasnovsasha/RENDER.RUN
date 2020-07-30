@@ -46,10 +46,7 @@ include "configs/config.php";
                         <div class="carousel-item active">
                             <img src="images/project2/BR_2.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>В создании проекта использованы следующие инструменты:</h5>
-                                <p>3d моделирование-3ds Max,
-                                    визуализация-Corona renderer,
-                                    постобработка-Photoshop.</p>
+                                <?php echo $lang['projectInstruments'] ?>
                             </div>
                         </div>
                         <div class="carousel-item">

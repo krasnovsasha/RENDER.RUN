@@ -33,8 +33,7 @@
             </a></div>
     </header>
     <div class="container">
-        <div class="wrapperMedContacts">
-                <img src="images/contacts.jpg" alt="контакты">
+                <div class="aboutMeImg"><img src="images/contacts.jpg" alt="me"></div>
                 <div class="contactTextForm">
                     КОНТАКТЫ (по вопросам дизайн-проекта)<br> <a href="tel:+79998736079">+7(999)873-60-79</a> <br>krasnova@render.run<br><br>
                     ПО ВОПРОСАМ СОТРУДНИЧЕСТВА <br><a href="tel:+79998736079">+7(999)873-60-79</a> <br>krasnova@render.run<br><br><br>
@@ -94,7 +93,6 @@
                     ?>
                 </div>
         </div>
-    </div>
     <footer>
         <div class="footerSocialIcons">
                 <a href="https://www.instagram.com/krasnova_viz/" target="_blank">
