@@ -25,6 +25,12 @@
                                     визуализация - Corona renderer,
                                     постобработка - Photoshop.</p>",
         "contactsForDeignProject" => "КОНТАКТЫ (по вопросам дизайн-проекта)",
-        "contactsForCollaboration" => "ПО ВОПРОСАМ СОТРУДНИЧЕСТВА"
+        "contactsForCollaboration" => "ПО ВОПРОСАМ СОТРУДНИЧЕСТВА",
+        "userName" => "ИМЯ",
+        "phoneNumber" => "ТЕЛЕФОН",
+        "userQuestion" => "ВАШ ВОПРОС",
+        "submit" => "ОТПРАВИТЬ",
+        "thankYouForMessage" => "Спасибо. Ваше сообщение успешно отправлено.",
+        "sendingMessageError" => "При отправке сообщения произошла ошибка"
     );
 ?>

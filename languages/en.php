@@ -25,6 +25,12 @@
                                      visualization - Corona renderer,
                                      post-processing - Photoshop.</p>",
         "contactsForDeignProject" => "CONTACTS (design project)",
-        "contactsForCollaboration" => "CONTACTS (cooperation)"
+        "contactsForCollaboration" => "CONTACTS (cooperation)",
+        "userName" => "NAME",
+        "phoneNumber" => "PHONE",
+        "userQuestion" => "QUESTION",
+        "submit" => "SUBMIT",
+        "thankYouForMessage" => "Thanks. Your message was successfully sent.",
+        "sendingMessageError" => "Sending message error"
     );
 ?>

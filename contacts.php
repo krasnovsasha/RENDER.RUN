@@ -43,19 +43,19 @@
                         and !isset($_POST['userMessage'])){
                     ?>
                     <form action="contacts.php" method="post">
-                        <label for="username">ИМЯ *</label><br>
+                        <label for="username"><?php echo $lang['userName'] ?> *</label><br><br>
                         <input id="username" type="text" name="userName" required><br>
                         <br>
-                        <label for="email"> EMAIL *</label><br>
+                        <label for="email"> EMAIL *</label><br><br>
                         <input id="email" type="text" name="userEmail"><br>
                         <br>
-                        <label for="phoneNumber">ТЕЛЕФОН *</label><br>
+                        <label for="phoneNumber"><?php echo $lang['phoneNumber'] ?> *</label><br><br>
                         <input id="phoneNumber" type="number" name="userNumber" required><br>
                         <br>
-                        <label for="question"> ВАШ ВОПРОС *</label><br>
-                        <input id="question" type="text" name="userMessage"><br>
+                        <label for="question"><?php echo $lang['userQuestion'] ?> *</label><br><br>
+                        <textarea id="question" type="text" name="userMessage" rows="5"></textarea><br><br>
                         <hr>
-                        <input type="submit" value="Отправить">
+                        <input type="submit" value="<?php echo $lang['submit'] ?>">
                     </form>
                     <?php
                         } else {
@@ -85,9 +85,9 @@
                         if (mail("krasnova@render.run", "Новая заявка с сайта RENDER.RUN",
                             "Имя: " . $userName . "\r\nEmail: " . $userEmail . "\r\nТелефон: " .
                             $userNumber . "\r\nСообщение: " . $userMessage)){
-                                echo $message;
+                                echo $lang['thankYouForMessage'];
                             }   else {
-                            echo "При отправке сообщения возникли ошибки";
+                            echo $lang['sendingMessageError'];
                             }
                         }
                     ?>
