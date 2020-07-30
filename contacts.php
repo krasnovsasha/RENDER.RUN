@@ -53,7 +53,7 @@
                         <input id="phoneNumber" type="number" name="userNumber" required><br>
                         <br>
                         <label for="question"><?php echo $lang['userQuestion'] ?> *</label><br><br>
-                        <textarea id="question" type="text" name="userMessage" rows="5"></textarea><br><br>
+                        <textarea id="question" name="userMessage" rows="5"></textarea><br><br>
                         <hr>
                         <input type="submit" value="<?php echo $lang['submit'] ?>">
                     </form>
