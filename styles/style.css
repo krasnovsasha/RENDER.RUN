@@ -549,16 +549,6 @@ html,body {
         padding: 0;
     }
 
-    .wrapperMedContacts {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .wrapperMedContacts img {
-        width: 40%;
-    }
-
     .contactTextForm {
         display: flex;
         flex-direction: column;
