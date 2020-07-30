@@ -19,6 +19,10 @@
             this is what completely fascinates me, I make every effort to achieve high-quality
             result, along the way learning new things. For me, the process of creating 3D visualization is extremely exciting.
             a process from which it is simply impossible to break away.<br>
-            <p>To create the renders were used: 3Ds Max, Corona Renderer, Photoshop.</p>"
+            <p>To create the renders were used: 3Ds Max, Corona Renderer, Photoshop.</p>",
+        "projectInstruments" => "<h5>The following tools were used in the development of the project:</h5>
+                                <p>3d modeling - 3ds Max,
+                                     visualization - Corona renderer,
+                                     post-processing - Photoshop.</p>"
     );
 ?>
