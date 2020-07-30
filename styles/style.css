@@ -121,6 +121,12 @@ html,body {
         font-family: Montserrat-Medium, sans-serif;
         color: dimgray;
     }
+    .contactTextForm {
+        margin: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+    }
 
     .aboutMeImg {
         float: left;

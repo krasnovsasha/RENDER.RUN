@@ -23,6 +23,8 @@
         "projectInstruments" => "<h5>The following tools were used in the development of the project:</h5>
                                 <p>3d modeling - 3ds Max,
                                      visualization - Corona renderer,
-                                     post-processing - Photoshop.</p>"
+                                     post-processing - Photoshop.</p>",
+        "contactsForDeignProject" => "CONTACTS (design project)",
+        "contactsForCollaboration" => "CONTACTS (cooperation)"
     );
 ?>

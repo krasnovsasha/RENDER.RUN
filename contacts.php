@@ -35,8 +35,8 @@
     <div class="container">
                 <div class="aboutMeImg"><img src="images/contacts.jpg" alt="me"></div>
                 <div class="contactTextForm">
-                    КОНТАКТЫ (по вопросам дизайн-проекта)<br> <a href="tel:+79998736079">+7(999)873-60-79</a> <br>krasnova@render.run<br><br>
-                    ПО ВОПРОСАМ СОТРУДНИЧЕСТВА <br><a href="tel:+79998736079">+7(999)873-60-79</a> <br>krasnova@render.run<br><br><br>
+                    <?php echo $lang['contactsForDeignProject'] ?><br> <a href="tel:+79998736079">+7(999)873-60-79</a> <br>krasnova@render.run<br><br>
+                    <?php echo $lang['contactsForCollaboration'] ?> <br><a href="tel:+79998736079">+7(999)873-60-79</a> <br>krasnova@render.run<br><br><br>
                     <?php
                         if(!isset($_POST['userName'])
                         and !isset($_POST['userNumber'])
