@@ -37,10 +37,9 @@
             <div class="containerIndexImg">
                 <img class="animation" src="images/mainRender1.jpg">
                 <img class="animation" src="images/mainRender2.jpg">
-                <img class="animation" src="images/mainRender3.jpg">
-            </div>
+                <img class="animation" src="images/mainRender3.jpg">            </div>
         </div>
-        <footer>
+        <footerIndex>
             <div class="footerSocialIcons">
                 <a href="https://www.instagram.com/krasnova_viz/" target="_blank">
                     <img src="images/instagram-64x64.jpg" alt="Instagram" title="Instagram">
@@ -51,6 +50,6 @@
                 krasnova@render.run   <a href="tel:+79998736079">+7(999)873-60-79</a>
                 <p><a href="index.php?lang=en"><?php echo $lang['langEn'] ?></a> | <a href="index.php?lang=ru"><?php echo $lang['langRu'] ?></a></p>
             </div>
-        </footer>
+        </footerIndex>
     </body>
 </html>
